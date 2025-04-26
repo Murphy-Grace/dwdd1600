@@ -1,0 +1,147 @@
+/* Global styles */
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    background-color: #f9fafb;
+    /* Add a subtle background color */
+    color: #333;
+    /* Default text color */
+}
+
+/* header stuff here */
+header {
+    background-color: #f9fafb;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #333;
+    /* Use a contrasting color for visibility */
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #f87171;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0 1.5rem;
+    /* Adjust horizontal padding */
+    height: 48px;
+    /* Explicitly set the height */
+    line-height: 48px;
+    /* Vertically center the text */
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #1552b7;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #1552b7;
+    color: #f9fafb;
+}
+
+nav li a:hover {
+    color: white;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #dc2626;
+}
+
+main h2 {
+    color: #024873;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #efefef;
+}
+
+main dl dt {
+    color: #dc2626;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #1552b7;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style: circle;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main address {
+    font-style: normal;
+    background-color: #1552b7;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #1552b7;
+    width: 200px;
+}
+
+main a {
+    color: #1552b7;
+
+}
+
+main a:hover {
+    color: #dc2626;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #f9fafb;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: #333;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #333;
+    letter-spacing: 4px;
+
+}
